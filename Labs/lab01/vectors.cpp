@@ -70,8 +70,8 @@ void insert(vector<string>& V, string word, int index)
     cout << "Insert not possible, position is beyond the size of the vector." << endl;
   else
     {
+      cout << "Inserting..." << endl;	
       V.insert(V.begin()+index, word);
-      cout << "Inserting..." << endl;
     }
 }
 
