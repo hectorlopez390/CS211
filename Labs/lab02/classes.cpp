@@ -106,3 +106,60 @@ void printStudentProfile(StudentCollection Students)
       cout <<endl;
     }
 }
+
+/*
+Output:
+MacBook-Pro-3:lab2 hector$ g++ classes.cpp
+MacBook-Pro-3:lab2 hector$ ./a.out
+SSN: 123453
+First Name: Jim
+Last Name: Klose
+Age: 20
+Gender: M
+Student Number: 789101100
+Course 1 Number: 133
+Course 1 Name: CS111
+Course 2 Number: 134
+Course 2 Name: CS211
+Course 3 Number: 135
+Course 3 Name: CS311
+
+SSN: 77777890
+First Name: Nancy
+Last Name: Brown
+Age: 25
+Gender: F
+Student Number: 505025323
+Course 1 Number: 192
+Course 1 Name: Chem101
+Course 2 Number: 193
+Course 2 Name: Chem102
+Course 3 Number: 194
+Course 3 Name: Chem103
+
+SSN: 888110
+First Name: Fiba
+Last Name: Emrar
+Age: 23
+Gender: F
+Student Number: 125125345
+Course 1 Number: 345
+Course 1 Name: Math201
+Course 2 Number: 346
+Course 2 Name: Math301
+Course 3 Number: 347
+Course 3 Name: Math401
+
+SSN: 888110
+First Name: Fiba
+Last Name: Emrar
+Age: 23
+Gender: F
+Student Number: 125125345
+Course 1 Number: 345
+Course 1 Name: Math201
+Course 2 Number: 346
+Course 2 Name: Math301
+Course 3 Number: 347
+Course 3 Name: Math401
+*/
