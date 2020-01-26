@@ -58,5 +58,48 @@ int main()
   return 0;
 }
 
-
 #endif //ENCAPSULATION_CPP
+
+/*
+Output:
+MacBook-Pro-3:lab3 hector$ g++ encapsulation.cpp StudentCollection.cpp StudentProfile.cpp Person.cpp Student.cpp Course.cpp
+MacBook-Pro-3:lab3 hector$ ./a.out
+SSN: 789101100
+First Name: Jim
+Last Name: Klose
+Age: 20
+Gender: M
+Student Number: 123453
+Course 1 Number: 133
+Course 1 Name: CS111
+Course 2 Number: 134
+Course 2 Name: CS211
+Course 3 Number: 135
+Course 3 Name: CS311
+
+SSN: 505025323
+First Name: Nancy
+Last Name: Brown
+Age: 25
+Gender: F
+Student Number: 77777890
+Course 1 Number: 192
+Course 1 Name: Chem101
+Course 2 Number: 193
+Course 2 Name: Chem102
+Course 3 Number: 194
+Course 3 Name: Chem103
+
+SSN: 125125345
+First Name: Fiba
+Last Name: Emrar
+Age: 23
+Gender: F
+Student Number: 888110
+Course 1 Number: 345
+Course 1 Name: Math201
+Course 2 Number: 346
+Course 2 Name: Math301
+Course 3 Number: 347
+Course 3 Name: Math401
+*/
