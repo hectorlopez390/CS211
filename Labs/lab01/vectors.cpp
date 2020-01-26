@@ -85,3 +85,35 @@ void remove(vector<string>& V, int index)
       V.erase(V.begin()+index);
     }
 }
+
+/*
+Output:
+MacBook-Pro-3:lab1 hector$ g++ vectors.cpp
+MacBook-Pro-3:lab1 hector$ ./a.out
+Inserting...
+Size of Vector:1
+Inserting...
+Size of Vector:2
+Inserting...
+Size of Vector:3
+Inserting...
+Size of Vector:4
+Inserting...
+Size of Vector:5
+Printing..
+Normal Program Book Perfect Total 
+Size of Vector:5
+Insert not possible, position is beyond the size of the vector.
+Size of Vector:5
+Deleteting...
+Size of Vector:4
+Delete not possible, position is beyond the size of the vector.
+Size of Vector:4
+Inserting...
+Size of Vector:5
+Deleteting...
+Size of Vector:4
+Printing..
+Normal Book Money Total 
+Size of Vector:4
+*/
