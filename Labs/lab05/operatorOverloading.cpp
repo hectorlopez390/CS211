@@ -180,3 +180,53 @@ int main()
   
   return 0;
 }
+/*
+Output:
+
+MacBook-Pro-3:lab5 hector$ g++ operatorOverloading.cpp
+MacBook-Pro-3:lab5 hector$ ./a.out
+Enter a file name -> M1.txt
+Enter a file name -> M2.txt
+Matrix A: 
+1 2 3 4 5 
+6 7 8 9 0 
+1 2 3 4 5 
+6 7 8 9 0 
+1 2 3 4 5 
+
+Matrix B: 
+6 7 8 9 0 
+1 2 3 4 5 
+6 7 8 9 0 
+1 2 3 4 5 
+6 7 8 9 0 
+
+A + B: 
+7 9 11 13 5 
+7 9 11 13 5 
+7 9 11 13 5 
+7 9 11 13 5 
+7 9 11 13 5 
+
+A - B: 
+-5 -5 -5 -5 5 
+5 5 5 5 -5 
+-5 -5 -5 -5 5 
+5 5 5 5 -5 
+-5 -5 -5 -5 5 
+
+A * B: 
+6 14 24 36 0 
+6 14 24 36 0 
+6 14 24 36 0 
+6 14 24 36 0 
+6 14 24 36 0 
+
+A / B: 
+0 0 0 0 0 
+6 3 2 2 0 
+0 0 0 0 0 
+6 3 2 2 0 
+0 0 0 0 0 
+
+*/
