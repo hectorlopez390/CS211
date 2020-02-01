@@ -4,7 +4,7 @@ CSUSM Computer Science II - Intermediate C++ <br />
 <b>Assignments</b> <br />
 Assignment 1 - Encryption/Decryption Driver Program <br />
 <br />
-Labs <br />
+<b>Labs</b> <br />
 Lab 1 - Vectors & String Concept Program <br />
 Lab 2 - Classes Concept Program <br />
 Lab 3 - Encapsulation Concept Program <br />
