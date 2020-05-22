@@ -1,5 +1,5 @@
 # CS211
-CSUSM Computer Science II - Intermediate C++ <br />
+CSUSM Computer Science II - C++/Object Oriented Programming & Design <br />
 <br />
 <b>Assignments</b> <br />
 Assignment 1 - Encryption/Decryption Driver Program <br />
