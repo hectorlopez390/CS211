@@ -1,5 +1,5 @@
 /*
-This headeer file declares a class Employee. Employee has functions to
+This header file declares a class Employee. Employee has functions to
 set attributes, print attributes, and get information from user.
  */
 //Hector Lopez
