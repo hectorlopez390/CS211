@@ -1,7 +1,8 @@
 /**********************************************************************
 Hector Lopez
 This object-oriented program creates a dictionary by processing a 
-transaction file that contains commands. The dictionary has 26 files
+transaction file that contains commands: Add word, Insert file, Print 
+file, Delete word, Spell check, and Search word. The dictionary has 26 files
 for each letter of the alphabet. 
 **********************************************************************/
 
