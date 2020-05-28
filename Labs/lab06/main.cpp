@@ -40,3 +40,23 @@ int main()
 }
 
 #endif //MAIN_CPP
+
+/*
+Output:
+MacBook-Pro-3:lab6 hector$ g++ CompSciProfessor.cpp AdjunctProf.cpp TenureTrackProf.cpp main.cpp
+MacBook-Pro-3:lab6 hector$ ./a.out
+Name: Adam Smith
+Email: asmith@csusm.edu
+Faculty ID: 12345
+Degree: B
+Number of TAs: 2
+Number of Courses: 1
+Salary: 6000
+
+Name: Jim Anderson
+Email: janderson@csusm.edu
+Faculty ID: 54321
+Rank: S
+Years of Experience: 8
+Salary: 92000
+*/
