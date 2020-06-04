@@ -4,6 +4,7 @@ CSUSM Computer Science II - C++/Object Oriented Programming & Design <br />
 <b>Assignments</b> <br />
 Assignment 1 - Encryption/Decryption Driver Program <br />
 Assignment 2 - Dictionary/Spell Checker Program <br/>
+Assignment 3 - University Directory Program <br/>
 <br />
 <b>Labs</b> <br />
 Lab 1 - Vectors & String Concept Program <br />
