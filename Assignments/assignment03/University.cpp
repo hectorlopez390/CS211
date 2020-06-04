@@ -428,6 +428,7 @@ bool University::ListFaculties()
   return success;
 }
 //----------------------------------------------------------------------------
+//this method processes the text file containing commands
 bool University::ProcessTransactionFile (string fileName)
 {
   ifstream fin;
@@ -442,8 +443,11 @@ bool University::ProcessTransactionFile (string fileName)
 
   if(fin)
     {
-      while(fin >> command)
+      while(fin >> command) //read command
 	{
+	  //depending on command, read in the next or next few data members 
+	  //and call function accordingly.
+	      
 	  if(command == "CreateNewDepartment")
 	    {
 	      fin >> name >> depLoc >> depChairId;
