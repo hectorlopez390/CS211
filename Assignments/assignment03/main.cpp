@@ -1,11 +1,12 @@
 /**********************************************************************
 Hector Lopez
 This program implements a small university. The University has the 
-following coponents: Department, Student, Faculty, and Course. The 
-program reads a transaction file containing 17 different commands, each
-with its own set of data. When reading the transaction file, the program
-will modify, create, or list University components.
-
+following components: Department, Student, Faculty, and Course. Student
+and faculty have many of the same data members, so they inherit from
+a super class: UniversityMember. The program reads a transaction file 
+containing 17 different commands, each with its own set of data. When 
+reading the transaction file, the program will modify, create, or list 
+University components.
 **********************************************************************/
 
 #ifndef MAIN_CPP
