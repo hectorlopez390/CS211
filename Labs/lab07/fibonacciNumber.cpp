@@ -52,3 +52,23 @@ int main()
 
   return 0;
 }
+
+/*
+Output: 
+
+MacBook-Pro-3:lab7 hector$ g++ fibonacciNumber.cpp
+MacBook-Pro-3:lab7 hector$ ./a.out
+Enter a number(enter a negative number to quit): 14
+!!!!! Sorry 14 is not a Fibonacci number
+Enter a number(enter a negative number to quit): 13
+Yes, you got it, 13 is a Fibonacci number
+Enter a number(enter a negative number to quit): 22
+!!!!! Sorry 22 is not a Fibonacci number
+Enter a number(enter a negative number to quit): 23
+!!!!! Sorry 23 is not a Fibonacci number
+Enter a number(enter a negative number to quit): 21
+Yes, you got it, 21 is a Fibonacci number
+Enter a number(enter a negative number to quit): -1
+(*Thanks - Have a good Day*)
+
+*/
