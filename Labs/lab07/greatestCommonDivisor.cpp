@@ -28,3 +28,14 @@ int main()
   cout << endl;
   return 0;
 }
+
+/*
+Output:
+
+MacBook-Pro-3:lab7 hector$ g++ greatestCommonDivisor.cpp
+MacBook-Pro-3:lab7 hector$ ./a.out
+Enter two numbers separated by a space to find their greatest common divisor: 56 64
+
+Greatest Common Divisor of 56 and 64 : 8
+
+*/
