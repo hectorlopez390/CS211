@@ -59,14 +59,14 @@ LL::LL(const LL& L1)
 {
   //preforms a deep copy of linked list L1 in order
 
-  NodePtr curr = L1.top;
+  NodePtr curr = L1.top; //creates pointer for first student node
   destroy(); //free any storage used by target linked list
 
   while(curr != NULL) //while pointer does not point to null
     {
       //set student info
-      insertAfterLast(curr -> stId, curr -> stName, curr -> stEmail, curr -> stAge);
-      curr = curr -> nextStudent;
+      insertAfterLast(curr -> stId, curr -> stName, curr -> stEmail, curr -> stAge); passes current student node info
+      curr = curr -> nextStudent; //next student in linked list
     }
 }
 
@@ -106,7 +106,7 @@ void LL::insertDataFromFile()
       while(!fin.eof()) //while not end of file, read 4 variables at a time
 	{
 	  insertAfterLast(id, name, email, age); //creates linked list of students in order of the transactionFile
-	  fin >> id >> name >> email >> age;
+	  fin >> id >> name >> email >> age; //reads next set of information
 	}
     }
   
