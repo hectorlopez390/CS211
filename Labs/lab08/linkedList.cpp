@@ -83,13 +83,6 @@ LL::~LL()
 // Read a transaction file and insert the data into it
 // after reading a set of data you can call any of the 
 // insert functions to insert the node into the linked list 
-/* use the following data to test your program
-   76543 Mary mary@csusm.edu 19
-   98765 Kathy kathy@csusm.edu 30
-   16438 Flora flora@csusm.edu 25
-   43260 Peter peter@csusm.edu 29
-   87590 Kim kim@csusm.edu 31
-*/
 void LL::insertDataFromFile()
 {
   //declare student info variables
