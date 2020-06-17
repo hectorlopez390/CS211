@@ -442,3 +442,172 @@ int main()
   return 0;
 }
 //--------------------------------------------
+
+/*
+Output:
+
+MacBook-Pro-3:lab9 hector$ g++ doublyLinkedList.cpp
+MacBook-Pro-3:lab9 hector$ ./a.out
+Reading information from transactionFile.txt into linked list...
+Printing linked list...
+Student ID: 76543
+Student Name: Mary
+Student Email: mary@csusm.edu
+Student Age: 19
+
+Student ID: 98765
+Student Name: Kathy
+Student Email: kathy@csusm.edu
+Student Age: 30
+
+Student ID: 16438
+Student Name: Flora
+Student Email: flora@csusm.edu
+Student Age: 25
+
+Student ID: 43260
+Student Name: Peter
+Student Email: peter@csusm.edu
+Student Age: 29
+
+Student ID: 87590
+Student Name: Kim
+Student Email: kim@csusm.edu
+Student Age: 31
+
+
+Printing linked list...
+Student ID: 54123
+Student Name: Joe
+Student Email: joe@csusm.edu
+Student Age: 35
+
+Student ID: 76543
+Student Name: Mary
+Student Email: mary@csusm.edu
+Student Age: 19
+
+Student ID: 54321
+Student Name: Jim
+Student Email: jim@csusm.edu
+Student Age: 25
+
+Student ID: 98765
+Student Name: Kathy
+Student Email: kathy@csusm.edu
+Student Age: 30
+
+Student ID: 16438
+Student Name: Flora
+Student Email: flora@csusm.edu
+Student Age: 25
+
+Student ID: 43260
+Student Name: Peter
+Student Email: peter@csusm.edu
+Student Age: 29
+
+Student ID: 87590
+Student Name: Kim
+Student Email: kim@csusm.edu
+Student Age: 31
+
+Student ID: 66641
+Student Name: Nancy
+Student Email: nancy@csusm.edu
+Student Age: 27
+
+Student ID: 63421
+Student Name: Adam
+Student Email: adam@csusm.edu
+Student Age: 20
+
+
+the record was not found
+Removing student: 54321...
+Printing linked list...
+Student ID: 54123
+Student Name: Joe
+Student Email: joe@csusm.edu
+Student Age: 35
+
+Student ID: 76543
+Student Name: Mary
+Student Email: mary@csusm.edu
+Student Age: 19
+
+Student ID: 98765
+Student Name: Kathy
+Student Email: kathy@csusm.edu
+Student Age: 30
+
+Student ID: 16438
+Student Name: Flora
+Student Email: flora@csusm.edu
+Student Age: 25
+
+Student ID: 43260
+Student Name: Peter
+Student Email: peter@csusm.edu
+Student Age: 29
+
+Student ID: 87590
+Student Name: Kim
+Student Email: kim@csusm.edu
+Student Age: 31
+
+Student ID: 66641
+Student Name: Nancy
+Student Email: nancy@csusm.edu
+Student Age: 27
+
+Student ID: 63421
+Student Name: Adam
+Student Email: adam@csusm.edu
+Student Age: 20
+
+
+Printing linked list...
+Student ID: 54123
+Student Name: Joe
+Student Email: joe@csusm.edu
+Student Age: 35
+
+Student ID: 76543
+Student Name: Mary
+Student Email: mary@csusm.edu
+Student Age: 19
+
+Student ID: 98765
+Student Name: Kathy
+Student Email: kathy@csusm.edu
+Student Age: 30
+
+Student ID: 16438
+Student Name: Flora
+Student Email: flora@csusm.edu
+Student Age: 25
+
+Student ID: 43260
+Student Name: Peter
+Student Email: peter@csusm.edu
+Student Age: 29
+
+Student ID: 87590
+Student Name: Kim
+Student Email: kim@csusm.edu
+Student Age: 31
+
+Student ID: 66641
+Student Name: Nancy
+Student Email: nancy@csusm.edu
+Student Age: 27
+
+Student ID: 63421
+Student Name: Adam
+Student Email: adam@csusm.edu
+Student Age: 20
+
+
+
+*/
